@@ -39,7 +39,7 @@
     {%- if post.author -%}
     <span class="post-author left-vsplit"><i class="fa fa-pencil"></i> {{ post.author | escape }}</span>
     {%- endif -%}
-    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> <span>  소요시간 : </span>{{ reading_time }}</span>
   </div>
   <div class="post-excerpt">
     {%- if post_image and post_image != 'NO_EXCERPT_IMAGE' -%}

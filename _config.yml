@@ -47,8 +47,8 @@ copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
   죽은 파란색 돈까스 공장에 오신 것을 환영합니다.
-  쓰고싶은 글을 쓰고싶은대로 쓰는 공간입니다.
-  아마두요
+  이곳은 문과생도 개발이라는 것을 하나봐요.
+  아마두요.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://YooByWk.github.io" # the base hostname & protocol for your site, e.g. https://example.com
@@ -165,8 +165,8 @@ night_mode: "auto"
 # Page default value
 defaults:
   home:
-    heading: " 🏭🏭🦕☄🦕☄ "
-    subheading: "문과생도 개발이라는 것을 하나봐요"
+    heading: " 🏭🦕☄🏭🦕☄ "
+    subheading: "이곳에서는 개발이 문과생을 할 수 있는 곳입니다. 아마도요."
     banner: "/assets/images/ameno.jpg"
 
 # Banner default settings
@@ -177,7 +177,7 @@ defaults:
 #   loop: true              # Video loop
 #   volume: 0               # Video volume (100% is 1.0)
 #   start_at: 0             # Video start time
-  # image: null             # Image banner source
+#   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
 #   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
 #   height: "640px"         # Banner default height
@@ -185,16 +185,16 @@ defaults:
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
-# Excerpt settings
+# # Excerpt settings
 # excerpt:
-  # default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
+#   default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
 #   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
 #   image_width: 38.2%      # Image default width
 #   image_height: 160px     # Image default height
 #   text_size: 350          # Words default size
 
 # Pagination setting
-paginate: 7
+paginate: 5
 
 # Photo previewer settings (PhotoSwipe 5)
 # the options please refer to: https://photoswipe.com/options/
