@@ -5,6 +5,7 @@ subtitle: 블로그, 시작합니다.
 date: 2024-02-29
 categories: [블로그, 개발]
 toc: true
+banner : /assets/images/GithubBlog/cat.jpg
 top: 1
 ---
 
