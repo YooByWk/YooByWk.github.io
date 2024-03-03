@@ -8,7 +8,7 @@ toc: true
 top: 1
 ---
 
-![banner](../assets/images/GithubBlog/cat.jpg)
+![banner](/assets/images/GithubBlog/cat.jpg)
 > 저도 배너가 띄우고 싶다고요 . . . 왜 안보여요 . . .
 
 > 개발 블로그!?
@@ -29,11 +29,11 @@ ssafy에 들어온지도 꽤 오랜 시간이 지났다.
 
 ### 사용방법 & 기본 구성
 자신의 Github repository 새로운 repository를 아래와 같이 만들면 됨.
-![alt text](../assets/images/GithubBlog/Repo.png)<br>
+![alt text](/assets/images/GithubBlog/Repo.png)<br>
 `{유저이름}.github.io`
 
 GitHub의 Settings에서 확인 가능하다.
-![alt text](../assets/images/GithubBlog/GitHubPages.png)
+![alt text](/assets/images/GithubBlog/GitHubPages.png)
 이곳을 자세히 보면
 
 1. 사이트는 아까 설정한 repository의 이름(경로)에서 볼 수 있다.
@@ -44,7 +44,7 @@ GitHub의 Settings에서 확인 가능하다.
 
 배포와 관련된 부담은 적다고 볼 수 있다.   
 - 깃허브가 대신 빌드해주고 배포해주는 모습  
-![alt text](../assets/images/GithubBlog/build.png)
+![alt text](/assets/images/GithubBlog/build.png)
 우선 지금 블로그 같은 경우에도 일단 push하면 자동적으로 배포가 되고 있는 구조니까.
 
 
@@ -52,7 +52,7 @@ GitHub의 Settings에서 확인 가능하다.
 
 테마를 적용한 지금은 다음과 같은 폴더 구조를 보인다.
 
-![alt text](../assets/images/GithubBlog/folder.png)
+![alt text](/assets/images/GithubBlog/folder.png)
 
 
 
@@ -97,7 +97,7 @@ GitHub의 Settings에서 확인 가능하다.
 댓글도 구현 가능 !! ~~와!!~~
 
 > 추가적인 설정은 _confing.yml에서 가능하다!  
-> ![alt text](./assets/images/GithubBlog/config.png)  
+> ![alt text](/assets/images/GithubBlog/config.png)  
 > 복잡해보이지만, 테마 설치 + 설명을 위한 주석이 85%
 > <br>
 <br>
@@ -105,7 +105,7 @@ GitHub의 Settings에서 확인 가능하다.
 ---
 
 그들이 말하는 장점은 다음과 같다.   
-![alt text](../assets/images/GithubBlog/Jekyll.png)
+![alt text](/assets/images/GithubBlog/Jekyll.png)
 
 Jekyll은 루비(Ruby)를 기반으로 한다. 한 번도 들어본적 없지만, 쓰는데 큰 문제가 없는걸 보면 쉽거나 문서가 잘 되어있는 건데 이것은 사실 [Jekyll](https://jekyllrb-ko.github.io/docs/) 문서의 빠른 시작을 보면 너무나 자세히 나와있어 설명과 별도의 검색이 의미없을 정도.
 
