@@ -97,7 +97,7 @@ GitHub의 Settings에서 확인 가능하다.
 댓글도 구현 가능 !! ~~와!!~~
 
 > 추가적인 설정은 _confing.yml에서 가능하다!  
-> ![alt text](../assets/images/GithubBlog/config.png)  
+> ![alt text](./assets/images/GithubBlog/config.png)  
 > 복잡해보이지만, 테마 설치 + 설명을 위한 주석이 85%
 > <br>
 <br>
@@ -136,5 +136,8 @@ Jekyll은 루비(Ruby)를 기반으로 한다. 한 번도 들어본적 없지만
 마침 2월 29일.
 
 ~~다음 2월 29일에 다시 확인해보면 얼마나 달라져 있을지...~~
+
+이미지가 안올라간다!!!  블로그에 이미지가 빠진다는 것은 불가능한데!!?!?
+
 
 &nbsp;
