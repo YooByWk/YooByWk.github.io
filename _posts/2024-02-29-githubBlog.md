@@ -33,7 +33,7 @@ ssafy에 들어온지도 꽤 오랜 시간이 지났다.
 `{유저이름}.github.io`
 
 GitHub의 Settings에서 확인 가능하다.
-![alt text](../assets/images/GithubBlog/GitHubPages.png.png)
+![alt text](../assets/images/GithubBlog/GitHubPages.png)
 이곳을 자세히 보면
 
 1. 사이트는 아까 설정한 repository의 이름(경로)에서 볼 수 있다.
@@ -42,7 +42,9 @@ GitHub의 Settings에서 확인 가능하다.
 
 생성 이후는 index.html을 이용하면 된다,
 
-배포와 관련된 부담은 적다고 볼 수 있다.  
+배포와 관련된 부담은 적다고 볼 수 있다.   
+- 깃허브가 대신 빌드해주고 배포해주는 모습  
+![alt text](../assets/images/GithubBlog/build.png)
 우선 지금 블로그 같은 경우에도 일단 push하면 자동적으로 배포가 되고 있는 구조니까.
 
 
@@ -50,7 +52,7 @@ GitHub의 Settings에서 확인 가능하다.
 
 테마를 적용한 지금은 다음과 같은 폴더 구조를 보인다.
 
-![alt text](../assets/images/GithubBlog/folder.png.png)
+![alt text](../assets/images/GithubBlog/folder.png)
 
 
 
