@@ -53,4 +53,4 @@ $selection-background-color: unquote("{{ site.selection.background_color }}");
 }
 
 @import "yat";
-@import "minimal-mistakes/syntax_gruvbox.dark"
+@import "sass-code-highlight/monokai";
