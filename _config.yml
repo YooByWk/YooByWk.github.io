@@ -150,7 +150,7 @@ night_mode: "auto"
 code_badge:
   enabled: "true"
   color: "#fff"
-  background_color: "#eeeee54"
+  background_color: "#ff4e00"
   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
@@ -245,6 +245,7 @@ paginate: 5
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
