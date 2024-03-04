@@ -241,11 +241,11 @@ paginate: 5
 #   follow_site_theme: true
 
 # Build settings
-# highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
+  # syntax_highlighter: rouge
   input: GFM
-  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
