@@ -152,14 +152,14 @@ code {
 *:not(pre) > code {
   padding: 3px 6px;
   border-radius: 3px;
-  background-color: #eeeeee54;
+  background-color: #eee;
   margin: 0 5px;
 }
 
 pre {
   overflow-x: auto;
   position: relative;
-  background-color: #eeeeee54;
+  background-color: #f0f0f0;
 
   > code {
     display: inline-block;
