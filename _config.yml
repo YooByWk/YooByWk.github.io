@@ -242,8 +242,8 @@ paginate: 5
 
 # Build settings
 highlighter: rouge
-rouge:
-  theme: "monokai" # "github" or "monokai"
+# rouge:
+#   theme: "monokai" # "github" or "monokai"
 markdown: kramdown
 kramdown:
   # syntax_highlighter: rouge

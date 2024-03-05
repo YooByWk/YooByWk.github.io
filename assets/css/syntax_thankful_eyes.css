@@ -1,0 +1,176 @@
+.highlight table td { padding: 5px !important; }
+.highlight table pre { margin: 0 !important; }
+.highlight {
+  color: #faf6e4 !important;
+  background-color: #122b3b !important;
+}
+.highlight .gl {
+  color: #dee5e7 !important;
+  background-color: #4e5d62 !important;
+}
+.highlight .gp {
+  color: #a8e1fe !important;
+  font-weight: bold !important;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #6c8b9f !important;
+  font-style: italic !important;
+}
+.highlight .cp {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .err {
+  color: #fefeec !important;
+  background-color: #cc0000 !important;
+}
+.highlight .gr {
+  color: #cc0000 !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+.highlight .k, .highlight .kd, .highlight .kv {
+  color: #f6dd62 !important;
+  font-weight: bold !important;
+}
+.highlight .o, .highlight .ow {
+  color: #4df4ff !important;
+  font-weight: bold !important;
+}
+.highlight .p, .highlight .pi {
+  color: #4df4ff !important;
+}
+.highlight .gd {
+  color: #cc0000 !important;
+}
+.highlight .gi {
+  color: #b2fd6d !important;
+}
+.highlight .ge {
+  font-style: italic !important;
+}
+.highlight .gs {
+  font-weight: bold !important;
+}
+.highlight .gt {
+  color: #dee5e7 !important;
+  background-color: #4e5d62 !important;
+}
+.highlight .kc {
+  color: #f696db !important;
+  font-weight: bold !important;
+}
+.highlight .kn {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .kp {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .kr {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .gh {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .gu {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .kt {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .no {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .nc {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .nd {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .nn {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .bp {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .ne {
+  color: #b2fd6d !important;
+  font-weight: bold !important;
+}
+.highlight .nl {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .nt {
+  color: #ffb000 !important;
+  font-weight: bold !important;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #f696db !important;
+  font-weight: bold !important;
+}
+.highlight .ld {
+  color: #f696db !important;
+  font-weight: bold !important;
+}
+.highlight .ss {
+  color: #f696db !important;
+  font-weight: bold !important;
+}
+.highlight .s, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+  color: #fff0a6 !important;
+  font-weight: bold !important;
+}
+.highlight .sa {
+  color: #f6dd62 !important;
+  font-weight: bold !important;
+}
+.highlight .se {
+  color: #4df4ff !important;
+  font-weight: bold !important;
+}
+.highlight .sc {
+  color: #4df4ff !important;
+  font-weight: bold !important;
+}
+.highlight .si {
+  color: #4df4ff !important;
+  font-weight: bold !important;
+}
+.highlight .nb {
+  font-weight: bold !important;
+}
+.highlight .ni {
+  color: #999999 !important;
+  font-weight: bold !important;
+}
+.highlight .w {
+  color: #BBBBBB !important;
+}
+.highlight .go {
+  color: #BBBBBB !important;
+}
+.highlight .nf, .highlight .fm {
+  color: #a8e1fe !important;
+}
+.highlight .py {
+  color: #a8e1fe !important;
+}
+.highlight .na {
+  color: #a8e1fe !important;
+}
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #a8e1fe !important;
+  font-weight: bold !important;
+}

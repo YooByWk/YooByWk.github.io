@@ -145,7 +145,7 @@ VS Code로 Flutter도 설치할 것이다.
     ```shell
       flutter doctor --android-licenses 
     ``` 
-    ```
+    ```py
     Android sdkmanager not found. Update to the latest Android SDK and ensure that the cmdline-tools are installed to resolve this.
     ```
 ---
