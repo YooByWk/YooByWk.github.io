@@ -6,14 +6,14 @@ hidden: []
 sidebar:
   - article-menu
 ---
-<script src="https://utteranc.es/client.js"
+<!-- <script src="https://utteranc.es/client.js"
         repo="YooByWk/comments"
         issue-term="pathname"
         label="comments"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script>
+</script> -->
 <div class="post">
   <section>
 
@@ -94,6 +94,16 @@ sidebar:
       {%- endif -%}
     </div>
     {%- endif -%}
-
+    {% if site.utterances.repo %}
+    <script src="https://utteranc.es/client.js"
+            repo="{{ site.utterances.repo }}"
+            issue-term="{{ site.utterances.issue_term }}"
+            label="{{ site.utterances.label }}"
+            theme="{{ site.utterances.theme }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+    {% endif %}
+<!-- 위가 추가 -->
   </section>
 </div>
