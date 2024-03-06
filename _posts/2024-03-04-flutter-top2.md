@@ -161,8 +161,9 @@ VS Code로 Flutter도 설치할 것이다.
 
 ![alt text](/assets/images/FlutterSet/ASplug.png)
 
-    설치 후 IDE를 재실행하면 New Flutter Project가 나옵니다 :) <br>
-    ![alt text](./ide.png)
+>  설치 후 IDE를 재실행하면 New Flutter Project가 나옵니다 :) <br>
+>
+>  ![alt text](/assets/images/FlutterSet/ide.png)
 
 
 # 마무리
