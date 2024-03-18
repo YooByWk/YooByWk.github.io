@@ -33,15 +33,19 @@ MVVM 패턴의 주요 장점 : View와 Model 사이의 의존성을 최소화, �
 
 ### MVVM 패턴에 따른 copilot과의 대화?
 > input : 
-```
-: 사용자 페이지 A 접근 2. 사용자 정보에 따라 A 페이지 데이터 호출 3. A 페이지 표시 4. 사용자 버튼 B와 상호작용 5. B 입력 전송 6. B 출력 수령 7. B 출력 표시 해당하는 예시 코드로 설명.
-```
+
+
+>>: 사용자 페이지 A 접근 2. 사용자 정보에 따라 A 페이지 데이터 호출 3. A 페이지 표시 4. 사용자 버튼 B와 상호작용 5. B 입력 전송 6. B 출력 수령 7. B 출력 표시 해당하는 예시 코드로 설명.
+
+
 
 > output
 
->주어진 시퀀스를 MVVM(Model-View-ViewModel) 구조에 따라 나누고, Dart 언어로 예시 코드를 작성하면 다음과 같습니다:
+>>주어진 시퀀스를 MVVM(Model-View-ViewModel) 구조에 따라 나누고, Dart 언어로 예시 코드를 작성하면 다음과 같습니다:
 
->Model: 사용자 정보와 관련된 데이터와 로직을 담당합니다. 사용자 정보에 따라 A 페이지 데이터를 호출하는 로직이 이 부분에 해당합니다.
+>>Model: 사용자 정보와 관련된 데이터와 로직을 담당합니다. 사용자 정보에 따라 A 페이지 데이터를 호출하는 로직이 이 부분에 해당합니다.
+
+<br>
 
 ```
 
@@ -55,7 +59,12 @@ class UserModel {
 }
 
 ```
+<br>
+
+
 > ViewModel: 사용자의 액션을 Model에 전달하고, Model로부터 데이터를 받아 View에 전달하는 역할을 합니다. 사용자가 페이지 A에 접근하는 액션과 버튼 B와 상호작용하는 액션, 그리고 이에 따른 데이터 호출 및 전송 로직이 이 부분에 해당합니다.
+
+
 ```
 class UserViewModel {
   final UserModel _userModel = UserModel();
@@ -67,7 +76,13 @@ class UserViewModel {
   String? get userInfo => _userModel.userInfo;
 }
 ```
+
+<br>
+
 > View: 사용자에게 보여지는 UI 부분을 담당합니다. A 페이지와 B 출력을 표시하는 부분이 이에 해당합니다.
+
+<br>
+
 ```
 class UserPage extends StatelessWidget {
   final UserViewModel _viewModel = UserViewModel();
@@ -89,9 +104,12 @@ class UserPage extends StatelessWidget {
   }
 }
 ```
+
+<br>
+
 > 이렇게 MVVM 구조는 Model, View, ViewModel 세 부분으로 나누어져 있으며, 각 부분은 서로 독립적으로 동작하면서도 상호작용합니다. 이를 통해 코드의 재사용성과 유지보수성이 향상됩니다.
 
-> input : 코드
+> input : 코드 보냈습니다.
 
 > output
 
@@ -112,11 +130,13 @@ class UserPage extends StatelessWidget {
 >이러한 Model들은 데이터를 저장하고, 필요한 비즈니스 로직을 수행하며, ViewModel을 통해 View에 데이터를 제공합니다.
 
 
->네, 그렇습니다. username과 password는 사용자의 로그인 정보를 나타내는 데이터이므로, 이들은 Model에 위치하는 것이 적절합니다. ViewModel은 이러한 데이터를 Model로부터 가져와서 View에 제공하는 역할을 합니다.
+>. username과 password는 사용자의 로그인 정보를 나타내는 데이터이므로, 이들은 Model에 위치하는 것이 적절합니다. ViewModel은 이러한 데이터를 Model로부터 가져와서 View에 제공하는 역할을 합니다.
 >
 >따라서, LoginModel을 만들고 username과 password를 이곳으로 이동시킬 수 있습니다. 그리고 LoginViewModel은 LoginModel을 사용하여 username과 password를 가져오고 설정하는 메서드를 제공할 수 있습니다.
 >
 >다음은 이를 반영한 코드 예시입니다:
+
+<br>
 
 ```
 class LoginModel {
