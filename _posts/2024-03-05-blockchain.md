@@ -10,7 +10,11 @@ categories: [
 ]
 # top : 
 toc: true
-# banner:  /assets/images/FlutterSet/flutterLogo.png
+# banner : 
+  # image: https://bit.ly/3xTmdUP
+  
+banner:
+  image: https://1drv.ms/i/c/60d1136c8e1eeac5/IQMvQxJmha7JTbEDDTw6iMjJAWYJEUirRCMAyiJPnsOezjE?width=1024
 ---
 
 # 블록체인
@@ -27,7 +31,7 @@ toc: true
 ### 블록체인 2.0 
 - 업계 최초 ICO (Initial Coin Offering) 를 통해 개발비 모금
 - 2015 이더리움 네트워크 시작
-- 탈 중앙화된 컴퓨팅 인프라. 월드 컴퓨터라고도 불림
+- 탈 중앙화된 컴퓨팅 인프라. 월드 컴퓨터라고도 불린다.
 - 블록체인에 스마트 컨트랙드 도입. DAO (Decentralized Autonomous Organization) 자기주권신원증명 탈중앙형 금융등의 가능성을 보여주고 Web3.0의 기반을 마련했다는 평가
 
 ### 정의 :

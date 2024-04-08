@@ -174,3 +174,7 @@
   color: #a8e1fe !important;
   font-weight: bold !important;
 }
+
+.highlight .language-solidity {
+  color: #BBBBBB !important;
+}

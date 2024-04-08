@@ -8,7 +8,7 @@ categories: [
   flutter,
   설치
 ]
-top : 2
+# top : 2
 toc: true
 banner:  /assets/images/FlutterSet/flutterLogo.png
 ---
