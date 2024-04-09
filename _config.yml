@@ -243,11 +243,11 @@ utterances:
 # Build settings
 highlighter: rouge
 # rouge:
-#   theme: "monokai" # "github" or "monokai"
+  # theme: "github" # "github" or "monokai"
 markdown: kramdown
 kramdown:
-  # syntax_highlighter: rouge
   input: GFM
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed

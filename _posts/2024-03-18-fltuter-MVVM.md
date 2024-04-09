@@ -65,7 +65,7 @@ class UserModel {
 > ViewModel: 사용자의 액션을 Model에 전달하고, Model로부터 데이터를 받아 View에 전달하는 역할을 합니다. 사용자가 페이지 A에 접근하는 액션과 버튼 B와 상호작용하는 액션, 그리고 이에 따른 데이터 호출 및 전송 로직이 이 부분에 해당합니다.
 
 
-```dartㅎ
+```dart
 class UserViewModel {
   final UserModel _userModel = UserModel();
 
