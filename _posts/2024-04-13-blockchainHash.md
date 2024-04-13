@@ -1,13 +1,14 @@
 ---
 layout: post
-title : 블록체인 지갑 주소 생성
-subtitle: 블록체인 파트 4  
+title : 블록체인 - 스마트 컨트랙트  트랜잭션 전송
+subtitle: 블록체인 파트 4  : 스마트 컨트랙트와 앱의 통신
 tags : blockchain, Ethereum, flutter, Dart
 date: 2024-04-13
 categories: [
   blockchain,
   Ethereum,
-  flutter
+  flutter,
+  smart contract,
 ]
 toc: true
 banner:
