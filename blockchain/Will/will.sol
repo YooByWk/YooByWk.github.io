@@ -8,13 +8,13 @@ contract Will {
 
     constructor() payable public {
         owner = msg.sender; // msg sender represents address being called
-        fortune = msg.value; //msg value tells us how much ether is being sent  
+        fortune = msg.value; //msg value tells us how much ether is being sent
     }
 
     // create modifier so the only person who can call the contract is the owner
     modifier onlyOwner {
         require(msg.sender == owner);
-        _;
+        _; 
     }
 
     // only allocate funds if friend's gramps is deceased
@@ -22,7 +22,7 @@ contract Will {
     modifier mustBeDeceased {
         require(deceased == true);
         _;
-    }    
+    }
 
     // list of family wallets 배열입니다.
     address payable[] familyWallets;
@@ -30,12 +30,12 @@ contract Will {
     // map through inheritance // 매핑
     mapping(address => uint) inheritance;
 
-    
+
     // 각 주소에 유산을 할당 : 소유자만 이 함수를 실행 시킬 수 있다.
     function setInheritance(address payable wallet, uint amount) public onlyOwner {
         familyWallets.push(wallet);
         inheritance[wallet] = amount;
-    } 
+    }
 
 
 
@@ -47,9 +47,9 @@ contract Will {
             familyWallets[i].transfer(inheritance[familyWallets[i]]);
         }
     }
-    
+
     function deceased() public onlyOwner {
         isDeceased = true;
-        
+
     }
 }
