@@ -46,7 +46,7 @@ copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  죽은 파란색 돈까스 공장에 오신 것을 환영합니다.
+  죽은 파란색 돈까스 공장(죽파돈)에 오신 것을 환영합니다.
   이곳은 문과생도 개발이라는 것을 하나봐요.
   아마두요.
 
@@ -73,7 +73,7 @@ yat:
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
 # lang: "en"  # default lang is en
