@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 죽은 파란색 돈까스 공장
+title: 뱅어포의 개발 공장
 email: tls19190l@naver.com
 author: YooBW
 
@@ -46,9 +46,7 @@ copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  죽은 파란색 돈까스 공장(죽파돈)에 오신 것을 환영합니다.
-  이곳은 문과생도 개발이라는 것을 하나봐요.
-  아마두요.
+  삼성 청년 SW 아카데미 10기. 비전공자 개발자의 블로그입니다. 문과생이 개발자가 되는 과정을 기록합니다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://YooByWk.github.io" # the base hostname & protocol for your site, e.g. https://example.com
@@ -166,7 +164,7 @@ code_badge:
 defaults:
   home:
     heading: " 🏭🦕☄🏭🦕☄ "
-    subheading: "이곳에서는 개발이 문과생을 할 수 있는 곳입니다. 아마도요."
+    subheading: "개발개발..."
     banner: "/assets/images/ameno.jpg"
 
 # Banner default settings

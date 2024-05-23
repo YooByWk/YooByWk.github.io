@@ -178,7 +178,7 @@ const product = {
   tags: ["멋진거", "돈까스"],
   details: {
     title: "뭔가뭔가",
-    description: "헉 죽은 돈까스!",
+    description: "멋진 돈까스!",
   },
 };
 ```
