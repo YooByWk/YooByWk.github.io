@@ -11,7 +11,7 @@ toc: true
 # image: https://bit.ly/3xTmdUP
 
 banner:
-  image: https://1drv.ms/i/c/60d1136c8e1eeac5/IQMvQxJmha7JTbEDDTw6iMjJAWYJEUirRCMAyiJPnsOezjE?width=1024
+  image: https://github.com/user-attachments/assets/1b098080-1d55-43e8-a698-becc37bfdf86
 ---
 
 # 블록체인
@@ -75,7 +75,7 @@ Remix IDE의 컴파일러와, 코드 모습
 <!-- ![remix](https://private-user-images.githubusercontent.com/139323278/397694540-91419099-cfdc-44e0-971a-cf34eec437af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ2ODg4MjQsIm5iZiI6MTczNDY4ODUyNCwicGF0aCI6Ii8xMzkzMjMyNzgvMzk3Njk0NTQwLTkxNDE5MDk5LWNmZGMtNDRlMC05NzFhLWNmMzRlZWM0MzdhZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyMFQwOTU1MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZjA4MWJlYzhiZTZjMTNiMzYxNDFlZDY5ZjA4NmViN2Y2MDYwY2VjMjMxYjM4ZDJiMzQzYjhhMmVhM2Y3ODAxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CYuZybEyhjbEFsD-227YFyUGIGZamH6RTkCzXba-6gg) -->
 
 <!-- remix-->
-<center><img src='https://github.com/user-attachments/assets/91419099-cfdc-44e0-971a-cf34eec437af' width="80%"></center>
+<center><img src='https://github.com/user-attachments/assets/91419099-cfdc-44e0-971a-cf34eec437af' width="100%"></center>
 
 ---
 
