@@ -118,8 +118,10 @@ Column(
 
 - 레이아웃 문제 뿐 아니라 타입 지정 실수 등과 같은 여러 오류로 인해 레이아웃은 잘 위젯상으로 잡혀도 컨텐츠가 나오지 않는 경우도 있었습니다. 확실히 설계하고 차근차근 추가하는 방법도 좋을 듯 합니다.
 
-![플러터 위젯 추가](https://1drv.ms/i/c/60d1136c8e1eeac5/IQOU5vJRjA2HRZXfgIWSJbu5AZDue1c9_11T2DwxHyueOEo?width=1024)
+<!-- ![플러터 위젯 추가](https://1drv.ms/i/c/60d1136c8e1eeac5/IQOU5vJRjA2HRZXfgIWSJbu5AZDue1c9_11T2DwxHyueOEo?width=1024) -->
 
+<center><img src="https://github.com/user-attachments/assets/dbf123f9-ccf9-495d-b4c4-4425d77f55a9" alt="플러터 위젯 추가" width="1024px"></center>
 - 힘들게 괄호 다 맞춰가면서 추가하지 말고 이런 기능도 써보는게 어떨까요
 
 - 플러터의 개발자 도구는 매우 좋습니다. :)
+- Vscode나 안드.. 사실 모든 개발에서 유용해요.
