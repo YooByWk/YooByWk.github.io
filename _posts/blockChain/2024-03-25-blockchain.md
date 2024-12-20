@@ -11,7 +11,8 @@ toc: true
 # image: https://bit.ly/3xTmdUP
 
 banner:
-  image: https://1drv.ms/i/c/60d1136c8e1eeac5/IQMvQxJmha7JTbEDDTw6iMjJAWYJEUirRCMAyiJPnsOezjE?width=1024
+  image: https://github.com/user-attachments/assets/1b098080-1d55-43e8-a698-becc37bfdf86
+  
 ---
 
 # 2024.02.19
@@ -223,7 +224,6 @@ ABI : 고수준 언어와 저수준 언어의 소통을 도와주는 인터페�
 - 흐름
   - 트랜잭션의 흐름을 세 단계로 분리함
 - r3 corda
-
 
 > **이더리움 백서**
 
