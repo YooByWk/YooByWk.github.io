@@ -14,11 +14,33 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  .a-tag-404 {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    border: gray, solid, 1px;
+    color: slategrey;
+    transition: 0.3s;
+  }
+  .a-tag-404:hover {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+  }
+
+  .img-404 {
+    margin: 10px 0 30px;
+  }
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>Try to check other pages through the menu. </p>
+  <h1>PNF 404 !!!</h1>
+  <p><strong>해당 페이지는 존재하지 않습니다. :(</strong></p>
+  <p>주소나 게시물 이름을 다시 확인해주세요.</p>
+  <img class="img-404" src="/assets/images/404hamster.webp" />
+  <a class="a-tag-404" href="/">메인으로 돌아가기</a>
 </div>
