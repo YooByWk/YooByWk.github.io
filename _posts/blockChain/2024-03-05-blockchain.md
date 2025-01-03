@@ -2,7 +2,7 @@
 layout: post
 title: 블록체인 시작
 subtitle: 블록체인을 시작해봅니다. feat. 간단개념
-tags: blockchain, intro
+tags: [blockchain, intro]
 date: 2024-03-05
 categories: [blockchain, intro]
 # top :

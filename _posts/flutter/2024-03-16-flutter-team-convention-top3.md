@@ -1,35 +1,34 @@
 ---
 layout: post
-title : Flutter 개발 가이드 / 팀 컨벤션 작성해본 것.
+title: Flutter 개발 가이드 / 팀 컨벤션 작성해본 것.
 subtitle: 개발 가이드 Read.md를 작성해보다.
-tags : flutter, 개발, 설정, 협업
+tags: [flutter, 개발, 설정, 협업]
 date: 2024-03-17
-categories: [
-  flutter,
-  협업
-]
+categories: [flutter, 협업]
 # top : 3
 toc: true
-banner:  /assets/images/FlutterSet/flutterLogo.png
+banner: /assets/images/FlutterSet/flutterLogo.png
 ---
 
-
 # Flutter 개발을 시작하며.
-> flutter 개발!   
-> 즐겁다!!!   
->  **더 즐거운** 개발을 진행하기 위해 팀원들과 나누기 위한 가이드를 작성해보았습니다.   
+
+> flutter 개발!  
+> 즐겁다!!!  
+>  **더 즐거운** 개발을 진행하기 위해 팀원들과 나누기 위한 가이드를 작성해보았습니다.  
 >  본 가이드는 어디까지나 필자의 의견입니다.
-> 
+
 # 개발 가이드
+
 > 개인 학습 겸 쓰여진 가이드입니다.
 >
 > 따르면 나쁠건 없고, 안따라도 문제없습니다 굿
-![alt text](/assets/images/FlutterSet/5mins.png)
-* 잘 짜면 좋겠지만, 없다면 없는대로 해보는건 어떨까요?*
+> ![alt text](/assets/images/FlutterSet/5mins.png)
+
+- 잘 짜면 좋겠지만, 없다면 없는대로 해보는건 어떨까요?\*
 
 ## 네이밍 컨벤션
 
-1. 폴더 이름에는 대문자를 사용하지 않습니다. 
+1. 폴더 이름에는 대문자를 사용하지 않습니다.
 2. 변수와 함수 이름은 `lowerCamelCase`를 사용합니다.
 3. 클래스 이름은 `UpperCamelCase`를 사용합니다.
 4. 상수는 `UPPERCASE_WITH_UNDERSCORES`를 사용합니다.
@@ -37,11 +36,11 @@ banner:  /assets/images/FlutterSet/flutterLogo.png
 ```dart
 //클래스
 class UserProfile {
-  // 변수 이름 
+  // 변수 이름
   final String userName;
   final String userEmail;
   // 상수 예시
-  static const int MAX_LOGIN_ATTEMPTS = 5; 
+  static const int MAX_LOGIN_ATTEMPTS = 5;
 
   // 생성자
   UserProfile(this.userName, this.userEmail);
@@ -54,25 +53,26 @@ class UserProfile {
 ```
 
 ## 코드 포멧팅
+
 1. 한 줄은 80~100자 미만으로 작성합니다.
 2. 일반적인 경우로 기본적으로 제공되는 IDE의 자동완성 혹은 `dartfmt`를 따릅니다.
 
-
 ## 폴더구조
-> 이 폴더 구조의 규칙은 "Memorial, Will, Main" 등 기능단위 기준으로 구분하는 규칙보다 우선되지는 않습니다. 
+
+> 이 폴더 구조의 규칙은 "Memorial, Will, Main" 등 기능단위 기준으로 구분하는 규칙보다 우선되지는 않습니다.
 >
 > 추후 협의 예정입니다. 자율적인 판단, 실행을 권장/존중합니다.
 
+1. 폴더는 기본적으로 models, view_models, view로 구성되는 것이 바람직합니다. 이는 MVVM 패턴을 따르는 각 구성 요소를 의미합니다.
 
-
-1. 폴더는 기본적으로 models, view_models, view로 구성되는 것이 바람직합니다.  이는 MVVM 패턴을 따르는 각 구성 요소를 의미합니다.
-   - `models` :  데이터를 나타내는 클래스를 포함합니다.
+   - `models` : 데이터를 나타내는 클래스를 포함합니다.
    - `view_models` : 상태 관리와 로직을 처리하는 클래스를 포함합니다.
-   - `views` : 사용자 인터페이스를 구성하는 위젯을 포함합니다. 
+   - `views` : 사용자 인터페이스를 구성하는 위젯을 포함합니다.
 
 2. `widgets` : 공통적으로 사용되는 위젯이 자리하게 됩니다.
-  - 위젯의 사용에 관한 주석을 권장합니다.
-  - 위젯의 필수요소와 선택사항의 기록 또한 권장합니다.
+
+- 위젯의 사용에 관한 주석을 권장합니다.
+- 위젯의 필수요소와 선택사항의 기록 또한 권장합니다.
 
 ```
 /lib
@@ -86,9 +86,10 @@ class UserProfile {
     - custom_button.dart
 ```
 
-
 ### MVVM 패턴
+
 > 과감히 건너뛰는 것 또한 하나의 방법
+
 ```dart
 // Model : 데이터를 나타냅니다.
 class User {
@@ -145,19 +146,18 @@ class UserProfilePage extends StatelessWidget {
   }
 }
 ```
+
 > 해당 코드는 사용자의 이름과 이메일을 표시하는 간단한 사용자 프로필을 나타내고 있습니다. 이것을 표현하기 위해 `ChangeNotifier`와 `Consumer`가 사용되었습니다.
 
-
 ## 주석 //
-주석의 사용은 **권장**됩니다.   
+
+주석의 사용은 **권장**됩니다.  
 클래스의 사용과 기능에 대한 주석은 코드 유지보수를 위한 이해 과정에 효과적이리라 예상합니다.
 
-
 ## 라이브러리 / plugins
-> 사용을 말리지 않습니다.   
+
+> 사용을 말리지 않습니다.  
 > 하지만 무분별한 추가는 사양합니다.
-
-
 
 ## 상태관리 with provider
 
@@ -176,7 +176,7 @@ class CounterModel with ChangeNotifier {
   void increment() {
     _count++;
     // 상태가 변경될 때 마다 리스너들에게 알립니다.
-    notifyListeners(); 
+    notifyListeners();
   }
 }
 
@@ -218,6 +218,7 @@ class CounterPage extends StatelessWidget {
 ```
 
 ## 에러 처리
+
 `try-catch`를 블록을 통해 오류 메시지를 표시합니다.
 
 ```dart

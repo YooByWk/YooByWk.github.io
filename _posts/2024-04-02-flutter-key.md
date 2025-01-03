@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter 오류-GlobarKey & 레이아웃 오류"
 subtitle: 없어도 된다면서 거짓말하는 flutter.
-tags: flutter, 개발, 오류
+tags: [flutter, 개발, 오류]
 date: 2024-04-02
 categories: [flutter, 개발]
 # top : 3

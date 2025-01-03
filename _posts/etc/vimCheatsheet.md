@@ -2,12 +2,16 @@
 layout: post
 title: "Nvim 입문기 치트시트"
 subtitle: "Neovim을 써보자."
-tags: Ubuntu, nvim, vim
+tags: [Ubuntu, nvim, vim]
 date: 2025-01-03
 categories: [vim]
 toc: true
 banner: https://github.com/user-attachments/assets/e889d4f2-a17c-4278-bf54-49520633739f
 ---
+
+> vim을 써보자.
+
+> 근데 neovim인
 
 # nvim neovim-cheat-sheet
 

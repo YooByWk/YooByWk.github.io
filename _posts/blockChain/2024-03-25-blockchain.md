@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 블록체인 개요 + 스마트 컨트랙트 약간
-subtitle: 블록체인 파트 2 & 3
+subtitle: [블록체인 파트 2 & 3]
 tags: blockchain, Ethereum
 date: 2024-03-25
 categories: [blockchain]
@@ -12,7 +12,6 @@ toc: true
 
 banner:
   image: https://github.com/user-attachments/assets/1b098080-1d55-43e8-a698-becc37bfdf86
-  
 ---
 
 # 2024.02.19
