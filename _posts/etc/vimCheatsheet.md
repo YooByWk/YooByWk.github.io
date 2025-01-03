@@ -78,7 +78,9 @@ banner: https://github.com/user-attachments/assets/e889d4f2-a17c-4278-bf54-49520
 ## LazyVim
 
 > 기본적으로 스페이스를 눌러서 실행하는 것 같음....
+>
 > 뭔가 익숙해지면 되는 부분이라서... 정리는 정말 이해 안되는 애들만...
+>
 > ` ^ D` 와 같은 경우에는, `컨트롤 + D` / `컨트롤 + U` 를 의미
 
 <img  src="https://github.com/user-attachments/assets/9e317262-7e2e-4521-9f04-959b32ad0639" height="700px"/>
