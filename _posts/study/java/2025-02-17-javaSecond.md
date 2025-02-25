@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spring bean 하이하이
-subtitle: Spring 2회차 과연
+title: "Spring bean 하이하이"
+subtitle: "Spring 2회차 과연"
 tags: [Java, Spring]
 date: 2025-02-17
 categories: [Java, Spring]
