@@ -6,7 +6,7 @@ tags: Obsidian
 date: 2025-03-02
 categories: [obsidian]
 toc: true
-banner: assets\images\obsidian-icon.png
+banner: /assets/images/obsidian-icon.png
 ---
 
 ## git을 이용한 Obsidian 동기화하기
@@ -40,7 +40,7 @@ banner: assets\images\obsidian-icon.png
   src="https://github.com/user-attachments/assets/468d6338-cf1f-4b24-9891-e0accf2301e3"
 />
 
-> [!NOTE] 플러그인 바로가기 :
+> 📝 플러그인 바로가기 :
 > [obsidian://show-plugin?id=obsidian-git](obsidian://show-plugin?id=obsidian-git)
 
 ---
@@ -74,7 +74,7 @@ banner: assets\images\obsidian-icon.png
 
 ## Termux를 사용해 안드로이드 git 사용
 
-> [!INFO] 사전 준비사항
+> 📝 사전 준비사항
 > 스토어에서 Termux를 설치하자.
 
 Termux를 설치했다면 터미널이 반겨준다!
@@ -185,7 +185,7 @@ PC에서와 마찬가지로 plugin에서 git 을 찾아 (제대로 pull 받았�
 
 그럼 총총.
 
-> [!IMPORTANT] 까먹지말고
+> ❗❗ 까먹지말고
 > /commit
 
 ---
