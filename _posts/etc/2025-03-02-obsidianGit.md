@@ -159,7 +159,7 @@ PC에서와 마찬가지로 plugin에서 git 을 찾아 (제대로 pull 받았�
 
 <img src="https://github.com/user-attachments/assets/e507e6f5-6156-4fc8-bf45-07cb5ace5974" max-height="350px"/>
 
-<img src="https://github.com/user-attachments/assets/54d8ba01-03b9-4071-9efb-548fa450a425" alt="" max-height="350px"></img>
+<img src="https://github.com/user-attachments/assets/54d8ba01-03b9-4071-9efb-548fa450a425" alt="" max-height="350px"/>
 
 그러면 이렇게 잘 불러온 모습이다!
 
@@ -169,7 +169,7 @@ PC에서와 마찬가지로 plugin에서 git 을 찾아 (제대로 pull 받았�
 요롷게  
 이미지의 경우 추가하면 바로 옵시디언으로 복사되는 듯!
 
-<img src="https://github.com/user-attachments/assets/a5f7a469-a5cd-454f-a983-07b59306ea2e" alt="" max-height="350px"></img>
+<img src="https://github.com/user-attachments/assets/a5f7a469-a5cd-454f-a983-07b59306ea2e" alt="" max-height="350px"/>
 
 # 마치며...
 
