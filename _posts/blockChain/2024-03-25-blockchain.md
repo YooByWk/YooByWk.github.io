@@ -5,7 +5,6 @@ subtitle: [블록체인 파트 2 & 3]
 tags: Blockchain, Solidity
 date: 2024-03-25
 categories: [Blockchain]
-# top :
 toc: true
 # banner :
 # image: https://bit.ly/3xTmdUP
