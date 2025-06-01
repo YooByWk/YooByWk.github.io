@@ -2,9 +2,9 @@
 layout: post
 title: Flutter 개발 가이드 / 팀 컨벤션 작성해본 것.
 subtitle: 개발 가이드 Read.md를 작성해보다.
-tags: [flutter, 개발, 설정, 협업]
+tags: [Flutter, 개발, 협업]
 date: 2024-03-17
-categories: [flutter, 협업]
+categories: [Flutter]
 # top : 3
 toc: true
 banner: /assets/images/FlutterSet/flutterLogo.png

@@ -2,9 +2,9 @@
 layout: post
 title: "블록체인 - 스마트 컨트랙트 트랜잭션 전송"
 subtitle: "블록체인 파트 4  : 스마트 컨트랙트와 앱의 통신"
-tags: [blockchain, Ethereum, flutter, Dart]
+tags: [Blockchain, Solidity, Flutter, Dart]
 date: 2024-04-13
-categories: [blockchain, Ethereum, flutter, smart contract]
+categories: [Blockchain, Solidity, Flutter, Smart Contract]
 toc: true
 banner:
   image: https://github.com/user-attachments/assets/1b098080-1d55-43e8-a698-becc37bfdf86

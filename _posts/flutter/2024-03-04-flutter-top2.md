@@ -2,9 +2,9 @@
 layout: post
 title: Flutter
 subtitle: Flutter 설치 & 초기 설정
-tags: [flutter, 설치, 설정]
+tags: [Flutter, 설정]
 date: 2024-03-04
-categories: [flutter, 설치]
+categories: [Flutter]
 # top : 2
 toc: true
 banner: /assets/images/FlutterSet/flutterLogo.png
@@ -158,8 +158,7 @@ Cmd 혹은 PowerShell에서 `flutter --version` 을 입력해 플러터 버전�
 ---
 
 > 오류 발생!!  
->  CMD / Powershell에서 명령어 실행이 안돼요!!! <br>
-> <br>
+>  CMD / Powershell에서 명령어 실행이 안돼요!!! <br> > <br>
 > 해결 :  
 >  Android Studio -> `SKD Manager` -> `SDK Tools` -> `Android SDK Command-line Tools` 설치. -> 다시 명령어 실행.
 

@@ -2,9 +2,9 @@
 layout: post
 title: Hardhat을 사용해보자
 subtitle: feat. 터미널에서 트랜잭션 전송해보기
-tags: [blockchain, Smart Contract, solidity, hardhat]
+tags: [Blockchain, Smart Contract, Solidity, Hardhat]
 date: 2025-01-09
-categories: [blockchain, Smart Contract, NFT]
+categories: [Blockchain, Smart Contract, NFT]
 toc: true
 banner: https://github.com/user-attachments/assets/330f9b76-045b-412e-afe1-0dd3146bc62c
 ---

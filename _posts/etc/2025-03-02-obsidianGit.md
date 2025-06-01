@@ -4,7 +4,7 @@ title: "Obsidian 저장 및 동기화하기"
 subtitle: "Obsidian 깃 연결 및 모바일 연동!"
 tags: Obsidian
 date: 2025-03-02
-categories: [obsidian]
+categories: [Obsidian]
 toc: true
 banner: /assets/images/obsidian-icon.png
 ---

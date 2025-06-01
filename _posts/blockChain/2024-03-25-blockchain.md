@@ -2,9 +2,9 @@
 layout: post
 title: 블록체인 개요 + 스마트 컨트랙트 약간
 subtitle: [블록체인 파트 2 & 3]
-tags: blockchain, Ethereum
+tags: Blockchain, Solidity
 date: 2024-03-25
-categories: [blockchain]
+categories: [Blockchain]
 # top :
 toc: true
 # banner :

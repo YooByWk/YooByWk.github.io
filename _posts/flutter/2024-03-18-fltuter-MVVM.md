@@ -4,8 +4,7 @@ title: "Flutter 개발 :  MVVM ?"
 subtitle: MVVM (Model, View, ViewModel) ? ? ?
 tags: [flutter, 개발, 패턴]
 date: 2024-03-18
-categories: [flutter, 협업]
-# top : 3
+categories: [Flutter]
 toc: true
 banner: /assets/images/FlutterSet/flutterLogo.png
 ---

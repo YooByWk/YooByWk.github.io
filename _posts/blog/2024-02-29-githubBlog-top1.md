@@ -3,7 +3,7 @@ layout: post
 title: "깃허브 블로그?"
 subtitle: 블로그, 시작합니다.
 date: 2024-02-29
-categories: [블로그, 개발]
+categories: [블로그]
 toc: true
 banner: /assets/images/GithubBlog/cat.jpg
 top: 1
@@ -103,8 +103,7 @@ Github 블로그 작성은 사실 나중에 더 깊게 다루고자 함.
 > 추가적인 설정은 \_confing.yml에서 가능하다!  
 > ![alt text](/assets/images/GithubBlog/config.png)  
 > 복잡해보이지만, 테마 설치 + 설명을 위한 주석이 85%
-> <br>
-> <br>
+> <br> > <br>
 
 ---
 

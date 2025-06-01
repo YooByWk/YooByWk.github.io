@@ -4,7 +4,7 @@ title: "Prisma "
 subtitle: SoftDelete 만들기.
 tags: Prisma
 date: 2025-02-25
-categories: [Prisma, 학습]
+categories: [ORM]
 toc: true
 ---
 
