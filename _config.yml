@@ -163,9 +163,9 @@ code_badge:
 # Page default value
 defaults:
   home:
-    heading: " 🏭🦕☄🏭🦕☄ "
-    subheading: "개발개발..."
-    banner: "/assets/images/ameno.jpg"
+    heading: " 🏭🦕☄ 뱅어포의 개발 공장 🏭🦕☄ "
+    subheading: "신나게 개발개발"
+    banner: "/assets/images/espana.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
