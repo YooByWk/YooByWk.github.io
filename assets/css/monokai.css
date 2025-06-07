@@ -3,6 +3,7 @@
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
   color: #75715e;
   font-style: italic;
+  font-family: sans-serif, monospace;
 }
 .highlight .cm {
   color: #75715e;
