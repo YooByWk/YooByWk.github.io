@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter 개발 :  MVVM ?"
 subtitle: MVVM (Model, View, ViewModel) ? ? ?
-tags: [flutter, 개발, 패턴]
+tags: [Flutter, 개발]
 date: 2024-03-18
 categories: [Flutter]
 toc: true

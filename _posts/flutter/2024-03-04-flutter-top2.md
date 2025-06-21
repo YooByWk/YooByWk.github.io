@@ -2,7 +2,7 @@
 layout: post
 title: Flutter
 subtitle: Flutter 설치 & 초기 설정
-tags: [Flutter, 설정]
+tags: [Flutter]
 date: 2024-03-04
 categories: [Flutter]
 # top : 2
