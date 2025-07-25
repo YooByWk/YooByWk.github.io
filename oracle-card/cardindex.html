@@ -1,0 +1,402 @@
+---
+layout: null
+permalink: /orcale-card/
+---
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오라클 카드</title>
+    <!-- <link rel="stylesheet" href="cardstyle.css" /> -->
+    <link rel="stylesheet" href="{{ "/oracle-card/cardstyle.css" | relative_url
+    }}">
+  </head>
+  <body>
+    <h1>질문에 심심하게 답해줄걸요?</h1>
+    <div class="game-area">
+      <div class="card-deck-container">
+        <div class="card-deck"></div>
+        <div class="deck-placeholder">
+          남은 카드: <span id="remainingCardsCount"></span>장
+        </div>
+      </div>
+      <div class="drawn-card-area"></div>
+    </div>
+    <div class="controls">
+      <button id="shuffleButton">카드 섞기</button>
+      <button id="drawButton">카드 뽑기</button>
+      <button id="resetButton">초기화</button>
+    </div>
+    <!-- <script src="cardscript.js"></script> -->
+    <script src="{{ "/oracle-card/cardscript.js" | relative_url }}"></script>
+  <script>
+    const cardData = [
+  {
+    question: "오늘 하루는 어떨까요?",
+    answer: "예상치 못한 기회가 찾아올 것입니다.",
+  },
+  {
+    question: "현재의 고민에 대한 해답은?",
+    answer: "내면의 목소리에 귀 기울이세요. 답은 당신 안에 있습니다.",
+  },
+  {
+    question: "새로운 도전을 시작할 때일까요?",
+    answer: "과감하게 나아가세요. 성공은 용기 있는 자의 것입니다.",
+  },
+  {
+    question: "관계에 대한 조언을 원합니다.",
+    answer: "소통과 이해가 가장 중요합니다. 먼저 손을 내밀어 보세요.",
+  },
+  {
+    question: "재정 상태 개선을 위한 팁은?",
+    answer: "절약과 현명한 투자를 병행해야 합니다.",
+  },
+  {
+    question: "건강을 위한 조언은?",
+    answer: "규칙적인 운동과 충분한 휴식이 필요합니다.",
+  },
+  {
+    question: "나의 잠재력을 어떻게 끌어낼 수 있을까?",
+    answer: "자신을 믿고 꾸준히 노력하면 됩니다.",
+  },
+  {
+    question: "앞으로 나아갈 방향은?",
+    answer: "새로운 지식과 경험을 탐구해보세요.",
+  },
+  {
+    question: "어려움에 직면했을 때 필요한 것은?",
+    answer: "좌절하지 않는 끈기와 긍정적인 태도입니다.",
+  },
+  {
+    question: "행복을 위한 비결은?",
+    answer: "작은 것에 감사하고 현재를 즐기는 것입니다.",
+  },
+  // --- 추가된 카드 데이터 (총 50장) ---
+  {
+    question: "나의 다음 단계는 무엇일까?",
+    answer: "새로운 배움의 기회를 찾아보세요.",
+  },
+  {
+    question: "두려움을 극복하려면?",
+    answer: "작은 성공부터 시작하여 자신감을 키우세요.",
+  },
+  {
+    question: "창의적인 영감을 얻으려면?",
+    answer: "일상의 틀을 벗어나 새로운 경험을 해보세요.",
+  },
+  {
+    question: "스트레스를 해소하는 방법은?",
+    answer: "자신만의 휴식 시간을 갖고 마음을 비우세요.",
+  },
+  {
+    question: "용서가 필요한가요?",
+    answer: "과거의 짐을 내려놓고 자유로워지세요.",
+  },
+  {
+    question: "어떤 선택을 해야 할까요?",
+    answer: "가장 마음이 이끄는 방향을 따르세요.",
+  },
+  {
+    question: "혼란스러울 때 필요한 것은?",
+    answer: "잠시 멈춰 서서 상황을 객관적으로 바라보세요.",
+  },
+  {
+    question: "성장을 위한 조언은?",
+    answer: "실패를 두려워하지 말고 계속 시도하세요.",
+  },
+  {
+    question: "내면의 평화를 찾으려면?",
+    answer: "명상이나 자연 속에서 시간을 보내세요.",
+  },
+  {
+    question: "나의 가치를 높이려면?",
+    answer: "자신을 사랑하고 존중하는 마음을 가지세요.",
+  },
+  {
+    question: "긍정적인 변화를 만들려면?",
+    answer: "작은 습관부터 바꿔나가세요.",
+  },
+  {
+    question: "협력이 필요한가요?",
+    answer: "주변 사람들과 소통하고 도움을 요청하세요.",
+  },
+  {
+    question: "새로운 시작을 위한 메시지는?",
+    answer: "과거는 흘려보내고 새로운 문을 여세요.",
+  },
+  {
+    question: "인내심이 필요한가요?",
+    answer: "모든 것은 때가 있습니다. 조급해하지 마세요.",
+  },
+  {
+    question: "감사의 마음을 표현하려면?",
+    answer: "주변 사람들에게 진심을 담아 감사를 전하세요.",
+  },
+  {
+    question: "어떤 기회가 다가오고 있나요?",
+    answer: "주변의 작은 신호들을 놓치지 마세요.",
+  },
+  {
+    question: "나 자신을 더 잘 이해하려면?",
+    answer: "일기를 쓰거나 자신과의 대화 시간을 가지세요.",
+  },
+  {
+    question: "갈등을 해결하는 방법은?",
+    answer: "상대방의 입장에서 생각하고 타협점을 찾으세요.",
+  },
+  {
+    question: "에너지를 충전하려면?",
+    answer: "좋아하는 활동을 하거나 충분한 휴식을 취하세요.",
+  },
+  {
+    question: "어떤 재능을 발휘해야 할까요?",
+    answer: "당신이 가장 즐겁게 할 수 있는 일을 찾아보세요.",
+  },
+  {
+    question: "도움이 필요한가요?",
+    answer: "혼자 고민하지 말고 주변에 도움을 요청하세요.",
+  },
+  {
+    question: "새로운 관점을 얻으려면?",
+    answer: "다양한 사람들과 교류하고 열린 마음을 가지세요.",
+  },
+  {
+    question: "목표를 달성하려면?",
+    answer: "구체적인 계획을 세우고 꾸준히 실행하세요.",
+  },
+  {
+    question: "두려움에 맞서려면?",
+    answer: "두려움은 성장의 기회입니다. 용기를 내세요.",
+  },
+  {
+    question: "어떤 메시지를 전해야 할까요?",
+    answer: "진심을 담아 솔직하게 이야기하세요.",
+  },
+  {
+    question: "균형을 유지하려면?",
+    answer: "일과 삶의 조화를 이루는 것이 중요합니다.",
+  },
+  {
+    question: "나의 길을 찾으려면?",
+    answer: "내면의 나침반을 믿고 나아가세요.",
+  },
+  {
+    question: "긍정적인 에너지를 얻으려면?",
+    answer: "감사하는 마음을 갖고 긍정적인 생각을 하세요.",
+  },
+  {
+    question: "어떤 것을 내려놓아야 할까요?",
+    answer: "더 이상 당신에게 도움이 되지 않는 것을 놓아주세요.",
+  },
+  {
+    question: "새로운 시작을 축하하세요.",
+    answer: "당신의 용기 있는 도전을 응원합니다.",
+  },
+  {
+    question: "자신감을 키우려면?",
+    answer: "작은 성취들을 기록하고 스스로를 칭찬하세요.",
+  },
+  {
+    question: "어떤 변화가 필요한가요?",
+    answer: "변화를 두려워 말고 새로운 시도를 해보세요.",
+  },
+  {
+    question: "관계를 개선하려면?",
+    answer: "먼저 이해하고 배려하는 마음을 가지세요.",
+  },
+  {
+    question: "어떤 지혜를 얻을 수 있을까요?",
+    answer: "경험을 통해 배우고 성장하는 기회입니다.",
+  },
+  {
+    question: "나에게 필요한 것은 무엇일까?",
+    answer: "잠시 멈춰 서서 자신의 내면을 들여다보세요.",
+  },
+  {
+    question: "희망을 잃지 마세요.",
+    answer: "어둠 속에서도 한 줄기 빛은 항상 존재합니다.",
+  },
+  {
+    question: "어떤 행동을 취해야 할까요?",
+    answer: "망설이지 말고 지금 바로 시작하세요.",
+  },
+  {
+    question: "내면의 힘을 발견하려면?",
+    answer: "어려움을 통해 당신의 진정한 강점을 깨달으세요.",
+  },
+  {
+    question: "감정을 다스리려면?",
+    answer: "감정을 인정하고 건강하게 표현하는 방법을 배우세요.",
+  },
+  {
+    question: "배움의 기회를 놓치지 마세요.",
+    answer: "새로운 지식은 당신의 시야를 넓혀줄 것입니다.",
+  },
+  {
+    question: "어떤 메시지가 당신을 기다리나요?",
+    answer: "주변의 모든 것이 당신에게 말을 걸고 있습니다.",
+  },
+  {
+    question: "성공을 위한 열쇠는?",
+    answer: "꾸준함과 끈기가 당신을 목표로 이끌 것입니다.",
+  },
+  {
+    question: "어떤 것을 탐색해야 할까요?",
+    answer: "당신이 진정으로 흥미를 느끼는 분야를 파고드세요.",
+  },
+  {
+    question: "치유가 필요한가요?",
+    answer: "과거의 상처를 보듬고 자신을 사랑하세요.",
+  },
+  {
+    question: "어떤 방향으로 나아가야 할까요?",
+    answer: "당신의 직감을 믿고 따르세요.",
+  },
+  {
+    question: "내일은 어떨까요?",
+    answer: "오늘의 노력이 내일의 결실로 이어질 것입니다.",
+  },
+  {
+    question: "어떤 것을 포용해야 할까요?",
+    answer: "다름을 인정하고 다양성을 존중하세요.",
+  },
+  {
+    question: "진정한 행복은 어디에 있을까?",
+    answer: "행복은 멀리 있지 않습니다. 당신의 마음에 있습니다.",
+  },
+];
+
+const cardDeck = document.querySelector(".card-deck");
+const drawnCardArea = document.querySelector(".drawn-card-area");
+const shuffleButton = document.getElementById("shuffleButton");
+const drawButton = document.getElementById("drawButton");
+const resetButton = document.getElementById("resetButton");
+const remainingCardsCountSpan = document.getElementById("remainingCardsCount");
+
+let currentDeckCards = []; // 덱에 남아있는 카드들 (DOM 요소)
+let originalCardData = []; // 초기 카드 데이터를 저장하여 리셋 시 사용
+
+function initializeDeck(data) {
+  cardDeck.innerHTML = "";
+  drawnCardArea.innerHTML = "";
+  currentDeckCards = [];
+  originalCardData = [...data];
+
+  let shuffledData = [...data];
+  for (let i = shuffledData.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledData[i], shuffledData[j]] = [shuffledData[j], shuffledData[i]];
+  }
+
+  shuffledData.forEach((item, index) => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.dataset.index = index;
+    card.style.setProperty("--card-index", index);
+    card.dataset.question = item.question;
+    card.dataset.answer = item.answer;
+
+    const cardFront = document.createElement("div");
+    cardFront.classList.add("card-face", "card-front");
+    cardFront.innerHTML = `<span>오라클 카드</span>`;
+
+    const cardBack = document.createElement("div");
+    cardBack.classList.add("card-face", "card-back");
+    cardBack.innerHTML = `<span>${item.answer}</span>`;
+
+    card.appendChild(cardFront);
+    card.appendChild(cardBack);
+
+    cardDeck.appendChild(card);
+    currentDeckCards.push(card);
+  });
+  updateButtonStates();
+  updateRemainingCardsCount();
+}
+
+function drawCard() {
+  if (currentDeckCards.length === 0) {
+    alert("덱에 카드가 없습니다. 초기화 해주세요!");
+    return;
+  }
+
+  if (drawnCardArea.children.length > 0) {
+    drawnCardArea.innerHTML = "";
+  }
+
+  const cardToDraw = currentDeckCards.pop();
+
+  drawnCardArea.appendChild(cardToDraw);
+  cardToDraw.classList.add("drawn");
+  cardToDraw.classList.remove("flipped");
+
+  setTimeout(() => {
+    cardToDraw.classList.add("flipped");
+  }, 100);
+
+  updateButtonStates();
+  updateRemainingCardsCount();
+}
+
+function shuffleCards() {
+  if (currentDeckCards.length === 0) {
+    alert("덱에 카드가 없습니다. 초기화 해주세요!");
+    return;
+  }
+
+  shuffleButton.disabled = true;
+  drawButton.disabled = true;
+
+  cardDeck.classList.add("shuffling");
+
+  for (let i = currentDeckCards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [currentDeckCards[i], currentDeckCards[j]] = [
+      currentDeckCards[j],
+      currentDeckCards[i],
+    ];
+  }
+
+  cardDeck.innerHTML = "";
+  currentDeckCards.forEach((card, index) => {
+    card.style.setProperty("--card-index", index);
+    card.classList.remove("drawn", "flipped");
+    cardDeck.appendChild(card);
+  });
+
+  setTimeout(() => {
+    cardDeck.classList.remove("shuffling");
+    updateButtonStates();
+  }, 900);
+}
+
+function resetGame() {
+  initializeDeck(originalCardData);
+  updateButtonStates();
+  updateRemainingCardsCount();
+}
+
+function updateButtonStates() {
+  drawButton.disabled = currentDeckCards.length === 0;
+  shuffleButton.disabled = currentDeckCards.length === 0;
+  resetButton.disabled = false;
+}
+
+function updateRemainingCardsCount() {
+  remainingCardsCountSpan.textContent = currentDeckCards.length;
+}
+
+shuffleButton.addEventListener("click", shuffleCards);
+drawButton.addEventListener("click", drawCard);
+resetButton.addEventListener("click", resetGame);
+
+initializeDeck(cardData);
+
+
+  </script>
+
+  </body>
+
+</html>
