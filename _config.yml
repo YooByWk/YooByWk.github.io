@@ -149,7 +149,7 @@ code_badge:
   enabled: "true"
   color: "#fff"
   background_color: "#4D377B"
-  text_transform: "capitalize"  # ("uppercase", "lowercase", "capitalize")
+  text_transform: "capitalize" # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -161,12 +161,22 @@ code_badge:
 #   - about.md
 
 # Page default value
+# defaults:
+#   home:
+#     heading: " 🏭🦕☄ 뱅어포의 개발 공장 🏭🦕☄ "
+#     subheading: "신나게 개발개발"
+#     banner: "/assets/images/espana.jpg"
 defaults:
-  home:
-    heading: " 🏭🦕☄ 뱅어포의 개발 공장 🏭🦕☄ "
-    subheading: "신나게 개발개발"
-    banner: "/assets/images/espana.jpg"
-
+  - scope:
+      path: "" # 루트 전체 적용
+      type: "posts" # 포스트에 적용
+  - scope:
+      path: "" # 루트 index.html에 적용
+      type: "pages"
+    values:
+      heading: " 🏭🦕☄ 뱅어포의 개발 공장 🏭🦕☄ "
+      subheading: "신나게 개발개발!"
+      banner: "/assets/images/espana.jpg"
 # Banner default settings
 # These banner settings are for global banner default, but you can also
 # config it by the front matter for one specific post
@@ -192,7 +202,8 @@ defaults:
 #   text_size: 350          # Words default size
 
 # Pagination setting
-paginate: 5
+paginate: 10
+paginate_path: "/page:num/"
 
 # Photo previewer settings (PhotoSwipe 5)
 # the options please refer to: https://photoswipe.com/options/
@@ -241,7 +252,7 @@ utterances:
 # Build settings
 highlighter: rouge
 # rouge:
-  # theme: "github" # "github" or "monokai"
+# theme: "github" # "github" or "monokai"
 markdown: kramdown
 kramdown:
   input: GFM

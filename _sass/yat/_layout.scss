@@ -812,6 +812,27 @@ html {
   bottom: 0.1em;
 }
 
+/**
+  * 2025.09.16 Post-series
+  */
+.post .series-section {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #e8fff9;
+  background-color: #ebebeb;
+  padding: 8px 16px;
+  width: 90%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  .series-summary {
+  }
+  .current {
+    margin-top: 4px;
+  }
+}
+
 .page-segments .post-badges {
   bottom: 0.1em;
 }

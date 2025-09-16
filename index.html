@@ -1,8 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
-title: Home
-banner: "/assets/images/banners/home.jpeg"
+layout: articles
+title: 뱅어포의 개발 공장
+pagination:
+  enabled: true
 ---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </article>
+  {% endfor %}
+</div>
+
+{% include views/pagination.html %}
