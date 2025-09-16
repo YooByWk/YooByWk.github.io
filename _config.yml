@@ -170,8 +170,6 @@ defaults:
   - scope:
       path: "" # 루트 전체 적용
       type: "posts" # 포스트에 적용
-    values:
-      banner: "/assets/images/espana.jpg"
   - scope:
       path: "" # 루트 index.html에 적용
       type: "pages"
