@@ -7,6 +7,7 @@ tags: [블로그]
 toc: true
 # date: YYYY-mm-dd
 banner: /assets/images/obsidianBlogWithNext/verceldomainset.png
+series: "Blog"
 ---
 
 # 와 블로그를 또 만든다!

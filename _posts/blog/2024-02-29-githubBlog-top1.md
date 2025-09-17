@@ -7,6 +7,7 @@ categories: [블로그]
 toc: true
 banner: /assets/images/GithubBlog/cat.jpg
 top: 1
+series: "Blog"
 ---
 
 ![banner](/assets/images/GithubBlog/cat.jpg)
