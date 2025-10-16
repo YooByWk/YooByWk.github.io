@@ -7,7 +7,7 @@ tags: [Python, Algorithm]
 toc: true
 date: 2025-09-17
 banner: /assets/jsLogo.png
-series: "TIL"
+series: "개인공부"
 ---
 
 # Python 까먹기 전에 다시.
