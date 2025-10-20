@@ -26,13 +26,13 @@ date: 2025-10-18
 
 ---
 
-![alt text](image.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image.png)
 
 벌써 터미널이 보이니 아찔한 것.
 
 설치하며 살펴 본 도전과제는 다음과 같다.
 
-![alt text](image-1.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-1.png)
 
 이거 완전 헬로 월드...!
 
@@ -64,7 +64,7 @@ while 1:
 
 이런 모양으로 수확한다.
 
-![alt text](image-3.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-3.png)
 
 근데 느리다. 어쩔 수 없으니 참고 수확하여, 스피드를 업그레이드 할 수 있게 해야한다.
 
@@ -84,7 +84,7 @@ while 1:
 
 근데 문제가 발생했다
 
-![alt text](image-4.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-4.png)
 
 살다살다 임포트도 바로 못쓰게 한다니.
 
@@ -96,13 +96,13 @@ while 1:
 
 업그레이드를 하고 나니 `if`문을 드디어 사용할 수 있게 되었다.
 
-![alt text](image-5.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-5.png)
 
 또한 `can_harvest()` 라는 기능또한 생겼다.
 
 아무래도 수확하면 좋은 타이밍에 판단하고 수확하는 것 같다.
 
-![alt text](image-6.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-6.png)
 
 그럴사한 코드가 완성되고 있다.
 
@@ -121,7 +121,7 @@ Hats.Brown_Hat
 
 4개가 있는 것 같다.
 
-![alt text](image-7.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-7.png)
 
 모자도 바꿔주고, 땅도 확장했다.
 
@@ -155,7 +155,7 @@ dfs 하듯 경계범위를 설정해야 하나 싶었지만, 딱히 그렇지는
 
 ---
 
-![alt text](image-8.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-8.png)
 
 한번 더 확장하여 3x3의 영역이 되었다.
 
@@ -197,7 +197,7 @@ while True:
 
 9. `get_world_size()` 가 있다!
 
-![alt text](image-9.png)
+![alt text](/assets/images/blog/2025-10-18-farmer/image-9.png)
 
 우선 이런 모양으로 이상하게 움직이게 됐지만..
 
