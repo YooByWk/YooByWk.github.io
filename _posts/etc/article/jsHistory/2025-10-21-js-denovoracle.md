@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JS 시리즈 2편] 간단 스크립트에서 웹까지, JavaScript의 역사"
+title: "[JS 시리즈 2편] Oracle의 JavaScript에 대한 Deno의 성명"
 subtitle: 라이언 달의 공식 청원, 그리고 법적 쟁점.
 categories: [JavaScript]
 tags: [JavaScript]
