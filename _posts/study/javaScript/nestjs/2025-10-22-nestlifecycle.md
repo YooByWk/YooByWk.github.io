@@ -6,6 +6,7 @@ tags: [JavaScript, TypeScript, BackEnd]
 date: 2025-10-22
 categories: [NestJS]
 toc: true
+series: "개인공부"
 ---
 
 NestJS는 `Node.js` 환경에서 확장 가능하고, 유지보수 하기 용이한 서버측 애플리케이션을 구축하기 위해 설계된 프레임워크.
