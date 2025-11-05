@@ -152,3 +152,12 @@ Jekyll은 루비(Ruby)를 기반으로 한다. 한 번도 들어본적 없지만
 <center><img src="https://github.com/user-attachments/assets/d25b3f7c-e2ff-4ddb-baf8-cc8bcc9a7736" width="100%"></center>
 
 &nbsp;
+
+# 현재 이미지 처리 과정
+
+1. 그냥 `git`에 올린다.
+2. Nas를 활용할까 고민중 <- 개인 나스가 생기면 분리 후 사용 예정
+3. 핸드폰을 이미지 서버로 쓸까
+4. 라즈베리파이 도입?
+
+돈...
